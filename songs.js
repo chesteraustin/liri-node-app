@@ -1,6 +1,6 @@
 'use strict';
 
-(function(song){
+(function(){
 	var spotifySearch = {
 		"title": "item is spotifySearch",
 		"searchTerm": function(song) {
