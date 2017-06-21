@@ -12,7 +12,7 @@
 			console.log("my-tweets");
 			break;
 		case "spotify-this-song":
-			console.log("spotify-this-song");
+			songs.searchTerm(term);
 			break;
 		case "movie-this":
 			console.log("movie-this");
