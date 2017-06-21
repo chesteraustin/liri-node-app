@@ -3,6 +3,7 @@
 (function(){
 	var key = require("./key");
 	var songs = require("./songs");
+	var movies = require("./movies");
 
 	var command = process.argv[2];
 	var term = process.argv[3];
@@ -15,7 +16,7 @@
 			songs.searchTerm(term);
 			break;
 		case "movie-this":
-			console.log("movie-this");
+			movies.searchTerm(term);
 			break;
 		case "do-what-it-says":
 			console.log("do-what-it-says");
