@@ -4,7 +4,7 @@
 	var tweets = require("./tweets")
 	var songs = require("./songs");
 	var movies = require("./movies");
-	var random = require("./random");;
+	var random = require("./random");
 
 	var command = process.argv[2];
 	var term = process.argv[3];
@@ -23,6 +23,6 @@
 			random.randomAction();
 			break;
 		default:
-			console.log("default");
+			console.log("Please select a command `my-tweets` or `spotify-this-song \"SONG-TITLE\"` or `movie-this \"MOVIE-TITLE\"` or `do-what-it-says`");
 	}
 })();
